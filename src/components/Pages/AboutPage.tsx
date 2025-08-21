@@ -18,7 +18,7 @@ const SustainabilityHero = () => {
     <div className="flex flex-col justify-center px-8 lg:px-16 py-16 bg-gray-100">
       <div className="max-w-lg">
         <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-4">
-        Our Commitment to a Sustainable Future
+          Our Commitment to a Sustainable Future
         </h1>
         <p className="text-lg text-gray-600">
           Kaveri's sustainability practices and goals
@@ -32,7 +32,14 @@ const SustainabilityQuote = () => {
   return (
     <div className="bg-white/95 backdrop-blur-sm rounded-lg p-2 max-w-2xl shadow-lg">
       <blockquote className="text-lg text-gray-700 italic leading-relaxed mb-6">
-      At Kaveri Industries, we believe that true success is about creating a positive and lasting impact. Sustainability is at the core of our operations, and we are dedicated to minimising our environmental footprint through resource-efficient processes and responsible waste management. From developing green belts to implementing rainwater harvesting systems, we ensure our growth respects and protects our natural resources. We are committed to building a better future for our people, our partners, and the generations to come.
+        At Kaveri Industries, we believe that true success is about creating a
+        positive and lasting impact. Sustainability is at the core of our
+        operations, and we are dedicated to minimising our environmental
+        footprint through resource-efficient processes and responsible waste
+        management. From developing green belts to implementing rainwater
+        harvesting systems, we ensure our growth respects and protects our
+        natural resources. We are committed to building a better future for our
+        people, our partners, and the generations to come.
       </blockquote>
     </div>
   );
