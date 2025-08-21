@@ -3,21 +3,21 @@ import React from "react";
 const testimonials = [
   {
     quote: "Great quality service delivered on time",
-    text: "Lorem ipsum dolor sit amet consectetur tortor donec ut nulla mattis vitae purus a cursus mauris eu non dictum sit adipiscing nulla turpis integer libero ipsum rhoncus.",
+    text: "Kaveri Industries provided us with a highly efficient and reliable packaging machine that has significantly improved our production line. Their team is professional and supportive.",
     author: "JOHN CARTER",
     location: "NEW YORK. NY",
     image: "/28820.jpg",
   },
   {
     quote: "Reliable, precise, and trusted by many",
-    text: "Lorem ipsum dolor sit amet consectetur tortor donec ut nulla mattis vitae purus a cursus mauris eu non dictum sit adipiscing nulla turpis integer libero ipsum rhoncus.",
+    text: "The quality of their machines is top-notch, and their after-sales service is excellent. We highly recommend Kaveri Industries.",
     author: "MATT CANNON",
     location: "MIAMI. FL",
     image: "/28820.jpg",
   },
   {
     quote: "Unbeatable metallurgical expertise",
-    text: "Lorem ipsum dolor sit amet consectetur tortor donec ut nulla mattis vitae purus a cursus mauris eu non dictum sit adipiscing nulla turpis integer libero ipsum rhoncus.",
+    text: "Kaveri Industries provided us with a highly efficient and reliable packaging machine that has significantly improved our production line. Their team is professional and supportive.",
     author: "SOPHIE MOORE",
     location: "SAN FRANCISCO. CA",
     image: "/28820.jpg",

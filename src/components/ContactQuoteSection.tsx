@@ -71,14 +71,12 @@ const ContactQuoteSection: React.FC = () => {
         <div className="w-full md:w-1/2 flex flex-col justify-center px-8 md:px-0">
           <div className="max-w-xl mx-auto md:mx-0 md:ml-0">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight text-white">
-              Contact us to
+            Ready to Elevate Your
               <br />
-              request a quote
+              Packaging Process?
             </h2>
             <p className="text-gray-300 mb-8">
-              Lorem ipsum dolor sit amet consectetur. Lacus purus tincidunt
-              mauris dolor molestie suscipit id. Egestas mauris justo laoreet
-              sed quis. Ornare neque sed in ultricies lacus.
+            Contact our experts today to discuss your requirements and get a customized quote for your FMCG packaging needs. Let Kaveri Industries be the catalyst for your growth.
             </p>
             <div className="flex flex-col md:flex-row gap-8">
               <div className="flex-1 flex items-start gap-3 mb-6 md:mb-0">

@@ -9,16 +9,13 @@ const IndustryFutureSection: React.FC = () => {
         <div className="flex flex-col justify-between h-full">
           <div className="mb-8">
             <p className="text-gray-500 mb-6">
-              Lorem ipsum dolor sit amet consectetur. Lacus purus tincidunt
-              mauris dolor molestie suscipit id. Egestas mauris justo laoreet
-              sed quis. Ornare neque sed in ultricies lacus neque arcu elit
-              netus. At donec duis vitae in.
-            </p>
-            <p className="text-gray-500">
-              In odio phasellus netus ut praesent nibh gravida facilisis magnis.
-              Tincidunt et facilisis odio metus proin. Scelerisque sed dolor
-              facilisis odio ut diam. Enim ut egestas proin lacus. Et tellus
-              risus tincidunt sit cras.
+              Based in the industrial hub of Faridabad, Kaveri Industries has
+              established itself as a leading manufacturer of FMCG packaging
+              machines. Our journey is built on a foundation of engineering
+              expertise, a commitment to quality, and a passion for innovation.
+              We are dedicated to providing our clients with state-of-the-art
+              packaging solutions that are not only efficient but also
+              cost-effective.
             </p>
           </div>
           <div className="w-full rounded overflow-hidden shadow-lg">
@@ -37,11 +34,9 @@ const IndustryFutureSection: React.FC = () => {
               <span className="ml-2 w-8 h-px bg-red-500 inline-block align-middle"></span>
             </span>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-              We’re the future
+              A Legacy of
               <br />
-              of metallurgy
-              <br />
-              industry
+              Quality and Innovation
             </h2>
           </div>
           <div className="flex gap-4">

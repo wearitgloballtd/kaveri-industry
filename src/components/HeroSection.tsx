@@ -7,8 +7,7 @@ const HeroSection: React.FC = () => {
     <section
       className="relative min-h-screen flex items-center"
       style={{
-        backgroundImage:
-          "url(/28820.jpg)",
+        backgroundImage: "url(/28820.jpg)",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
@@ -21,12 +20,8 @@ const HeroSection: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-8">
-              Innovative
-              <br />
-              metal solutions
-              <br />
-              for industries
+            <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold text-white leading-tight mb-8">
+              Precision Engineering for FMCG Packaging Machines
             </h1>
 
             {/* Statistics */}
@@ -68,8 +63,8 @@ const HeroSection: React.FC = () => {
           {/* Right Content */}
           <div className="lg:pl-8">
             <p className="text-gray-300 text-lg leading-relaxed mb-8">
-              Lorem Ipsum dolor sit amet consectetur orci lorem rhoncus euismod
-              egestas nam tellus eu proin tincidunt eget tempus hac consectetur.
+              Your trusted partner in innovative and reliable packaging
+              solutions that drive efficiency and growth.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

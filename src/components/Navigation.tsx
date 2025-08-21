@@ -106,9 +106,7 @@ const Navigation: React.FC<NavigationProps> = ({ isScrolled, showNavbar }) => {
             <a
               href="#"
               className="text-black hover:text-red-400 transition-colors flex items-center space-x-1"
-            >
-             
-            </a>
+            ></a>
           </div>
 
           {/* Contact Info & CTA */}

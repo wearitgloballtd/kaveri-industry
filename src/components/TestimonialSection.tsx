@@ -12,9 +12,7 @@ const TestimonialSection: React.FC = () => {
             <span className="ml-2 w-12 h-px bg-red-500 inline-block align-middle"></span>
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-            What our clients say
-            <br />
-            about&nbsp; our work
+           Why Choose Us?
           </h2>
         </div>
         {/* Image and Testimonial Card */}

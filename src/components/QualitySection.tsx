@@ -19,16 +19,17 @@ const QualitySection: React.FC = () => {
             </h2>
           </div>
           <div className="mt-4 md:mt-8 md:ml-8 md:w-1/2 text-gray-600 text-base md:text-right max-w-xl">
-            Lorem ipsum dolor sit amet consectetur. Diam fringilla elit sit
-            mauris pellentesque est ut lobortis. Risus adipiscing pharetra nisi
-            ac urna. Proin enim viverra ullamcorper pulvinar nulla. Risus.
+            Kaveri Industries provides robust and versatile packaging solutions
+            for a wide range of FMCG sectors. We understand the unique demands
+            of each industry and offer machines that enhance productivity and
+            ensure product integrity.
           </div>
         </div>
         {/* Right-aligned image with overlay and play button */}
         <div className="w-full">
           <div className="relative w-full md:w-[900px] md:ml-auto aspect-video rounded overflow-hidden shadow-lg">
             <img
-              src="https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&w=1200&q=80"
+              src="https://youtu.be/Yg52NDLxtgA?si=PXFeCtQ0ZJcj0_BV"
               alt="Quality warehouse"
               className="w-full h-full object-cover"
             />

@@ -4,9 +4,9 @@ import { ArrowRight } from "lucide-react";
 const steps = [
   {
     number: "01",
-    title: "Material selection",
+    title: "Decades of Experience",
     description:
-      "Lorem ipsum dolor sit amet lorem consectetur adipiscing elit est vel semper nam porta arcu.",
+      "Proven expertise in the packaging machinery industry.",
     bg: "bg-gray-900 text-white",
     numberClass: "text-white",
     titleClass: "text-white",
@@ -14,9 +14,9 @@ const steps = [
   },
   {
     number: "02",
-    title: "Processing & shaping",
+    title: "Customer-Centric Approach",
     description:
-      "Lorem ipsum dolor sit amet lorem consectetur adipiscing elit est vel semper nam porta arcu.",
+      "We prioritise your needs and deliver tailored solutions.",
     bg: "bg-gray-50",
     numberClass: "text-gray-700",
     titleClass: "text-gray-900",
@@ -24,9 +24,9 @@ const steps = [
   },
   {
     number: "03",
-    title: "Quality control",
+    title: "ISO Certified",
     description:
-      "Lorem ipsum dolor sit amet lorem consectetur adipiscing elit est vel semper nam porta arcu.",
+      "Adherence to the highest standards of quality and safety.",
     bg: "bg-gray-100",
     numberClass: "text-gray-700",
     titleClass: "text-gray-900",
