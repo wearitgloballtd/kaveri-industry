@@ -1,36 +1,35 @@
 import React from "react";
-import { ArrowRight } from "lucide-react";
 
 const steps = [
   {
     number: "01",
     title: "Decades of Experience",
-    description:
-      "Proven expertise in the packaging machinery industry.",
+    description: "Proven expertise in the packaging machinery industry.",
     bg: "bg-gray-900 text-white",
     numberClass: "text-white",
     titleClass: "text-white",
     descClass: "text-gray-200",
+    image: "/Home-Page/Decades of Experience.jpg",
   },
   {
     number: "02",
     title: "Customer-Centric Approach",
-    description:
-      "We prioritise your needs and deliver tailored solutions.",
+    description: "We prioritise your needs and deliver tailored solutions.",
     bg: "bg-gray-50",
-    numberClass: "text-gray-700",
-    titleClass: "text-gray-900",
-    descClass: "text-gray-500",
+    numberClass: "text-white",
+    titleClass: "text-white",
+    descClass: "text-white",
+    image: "/Home-Page/Customer-Centric Approach.jpg",
   },
   {
     number: "03",
     title: "ISO Certified",
-    description:
-      "Adherence to the highest standards of quality and safety.",
+    description: "Adherence to the highest standards of quality and safety.",
     bg: "bg-gray-100",
-    numberClass: "text-gray-700",
-    titleClass: "text-gray-900",
-    descClass: "text-gray-500",
+    numberClass: "text-white",
+    titleClass: "text-white",
+    descClass: "text-white",
+    image: "/Home-Page/ISO Certified.jpg",
   },
 ];
 
@@ -48,9 +47,16 @@ const ProcessSection: React.FC = () => {
           <br />
           process is done
         </h2>
-        <p className="text-gray-500 max-w-2xl mx-auto mb-12">
-          Lorem ipsum dolor sit amet consectetur lacus purus tincidunt mauris
-          dolor molestie suscipit id egestas mauris justo laoreet sed quis.
+        <p className="text-gray-500 max-w-4xl mx-auto mb-12">
+          At Kaveri Global Industries, our process is designed to ensure
+          efficiency, precision, and reliability at every stage. We begin by
+          understanding your specific requirements and then move into
+          intelligent design and advanced engineering to create machinery
+          tailored to your industry. Each system undergoes strict quality checks
+          before installation, guaranteeing smooth integration into your
+          production line. Backed by continuous support and innovation, our
+          process delivers packaging solutions that enhance productivity, reduce
+          downtime, and give your business a competitive edge.
         </p>
         {/* Steps */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
@@ -61,32 +67,32 @@ const ProcessSection: React.FC = () => {
             return (
               <div
                 key={step.number}
-                className={`rounded-lg p-8 flex flex-col items-start md:items-start ${step.bg} h-full ${mt}`}
+                className={`relative overflow-hidden rounded-lg p-8 flex flex-col items-start md:items-start ${step.bg} h-full ${mt} bg-cover bg-center bg-no-repeat`}
+                style={{
+                  backgroundImage: step.image
+                    ? `url("${step.image}")`
+                    : undefined,
+                }}
               >
-                <div
-                  className={`text-3xl font-bold mb-6 ml-auto ${step.numberClass}`}
-                >
-                  {step.number}
+                <div className="absolute inset-0 bg-black/40" />
+                <div className="relative z-10 w-full">
+                  <div
+                    className={`text-3xl font-bold mb-6 ml-auto ${step.numberClass}`}
+                  >
+                    {step.number}
+                  </div>
+                  <h3
+                    className={`text-xl font-semibold mb-2 ${step.titleClass}`}
+                  >
+                    {step.title}
+                  </h3>
+                  <p className={`text-sm ${step.descClass}`}>
+                    {step.description}
+                  </p>
                 </div>
-                <h3 className={`text-xl font-semibold mb-2 ${step.titleClass}`}>
-                  {step.title}
-                </h3>
-                <p className={`text-sm ${step.descClass}`}>
-                  {step.description}
-                </p>
               </div>
             );
           })}
-        </div>
-        {/* Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-full transition-colors flex items-center justify-center space-x-2">
-            <span>Get a quote</span>
-            <ArrowRight className="w-4 h-4" />
-          </button>
-          <button className="border border-gray-400 hover:border-gray-600 text-gray-900 px-6 py-3 rounded-full transition-colors">
-            Learn more
-          </button>
         </div>
       </div>
     </section>

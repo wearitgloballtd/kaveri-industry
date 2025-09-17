@@ -1,5 +1,4 @@
 import React from "react";
-import { ArrowRight } from "lucide-react";
 
 const IndustryFutureSection: React.FC = () => {
   return (
@@ -9,18 +8,21 @@ const IndustryFutureSection: React.FC = () => {
         <div className="flex flex-col justify-between h-full">
           <div className="mb-8">
             <p className="text-gray-500 mb-6">
-              Based in the industrial hub of Faridabad, Kaveri Industries has
-              established itself as a leading manufacturer of FMCG packaging
-              machines. Our journey is built on a foundation of engineering
-              expertise, a commitment to quality, and a passion for innovation.
-              We are dedicated to providing our clients with state-of-the-art
-              packaging solutions that are not only efficient but also
-              cost-effective.
+              Kaveri Global Industries is dedicated to providing end-to-end
+              solutions in fully automatic packaging systems. We design and
+              manufacture advanced, intelligent, and highly automated machinery
+              tailored to diverse industries, including tobacco, nicotine snus,
+              FMCG, electronics, medical and healthcare, food, health products,
+              daily chemicals, and plastic hardware. Our expertise covers the
+              entire production cycle with specialized solutions for cartoning,
+              boxing, labeling, and other integrated packaging processes,
+              ensuring efficiency, reliability, and innovation for our clients
+              worldwide.
             </p>
           </div>
           <div className="w-full rounded overflow-hidden shadow-lg">
             <img
-              src="/28820.jpg"
+              src="/Home-Page/A Legacy of Quality and Innovation.jpg"
               alt="Industry workers"
               className="object-cover w-full h-56 md:h-64 lg:h-72"
             />
@@ -38,15 +40,6 @@ const IndustryFutureSection: React.FC = () => {
               <br />
               Quality and Innovation
             </h2>
-          </div>
-          <div className="flex gap-4">
-            <button className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-full transition-colors flex items-center space-x-2">
-              <span>Get a quote</span>
-              <ArrowRight className="w-4 h-4" />
-            </button>
-            <button className="border border-gray-400 hover:border-gray-600 text-gray-900 px-6 py-3 rounded-full transition-colors">
-              Learn more
-            </button>
           </div>
         </div>
       </div>

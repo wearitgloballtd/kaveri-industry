@@ -19,6 +19,7 @@ const mainPages = [
   "Coming soon",
   "More Webflow Templates",
 ];
+
 const utilityPages = [
   "Style guide",
   "Start here",
@@ -30,14 +31,18 @@ const utilityPages = [
 
 const Footer: React.FC = () => {
   return (
-    <footer className="w-full bg-gray-900 text-white pt-16 pb-8 px-4 md:px-0 relative overflow-hidden">
+    <footer className="w-full bg-gray-900 text-white pt-4 pb-4 px-4 md:px-0 relative overflow-hidden">
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Top: Logo and Heading */}
-        <div className="flex flex-col items-center mb-12">
-          <div className="mb-6">
+        <div className="flex flex-col items-center mb-4">
+          <h2 className="text-xl md:text-2xl font-bold text-center mb-3">
+            We're the future of
+            <br className="hidden md:block" /> metallurgy industry
+          </h2>
+          <div className="flex gap-4 mb-3">
             {/* Logo SVG */}
             <span className="inline-block">
-              <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <svg width="32" height="32" viewBox="0 0 48 48" fill="none">
                 <rect width="48" height="48" rx="12" fill="#F43F5E" />
                 <rect
                   x="10"
@@ -74,21 +79,17 @@ const Footer: React.FC = () => {
               </svg>
             </span>
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold text-center mb-8">
-            We’re the future of
-            <br className="hidden md:block" /> metallurgy industry
-          </h2>
-          <div className="flex gap-4 mb-8">
-            <button className="bg-red-500 hover:bg-red-600 text-white font-semibold rounded-full px-6 py-2 flex items-center gap-2 transition">
+          <div className="flex gap-3 mb-4">
+            <button className="bg-red-500 hover:bg-red-600 text-white font-semibold rounded-full px-4 py-1.5 flex items-center gap-2 transition text-sm">
               Get a quote <span className="ml-1">→</span>
             </button>
-            <button className="border border-white text-white font-semibold rounded-full px-6 py-2 flex items-center gap-2 transition hover:bg-white hover:text-gray-900">
+            <button className="border border-white text-white font-semibold rounded-full px-4 py-1.5 flex items-center gap-2 transition hover:bg-white hover:text-gray-900 text-sm">
               Learn more
             </button>
           </div>
         </div>
         {/* Middle: Links and Newsletter */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
           {/* Main pages */}
           <div>
             <div className="font-semibold mb-3">Main pages</div>
@@ -134,7 +135,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         {/* Bottom: Copyright and Socials */}
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between border-t border-gray-800 pt-6 text-gray-400 text-sm">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between border-t border-gray-800 pt-4 text-gray-400 text-sm">
           <div className="mb-4 md:mb-0">
             Copyright © Industrial X | Designed by{" "}
             <a href="#" className="underline hover:text-white">

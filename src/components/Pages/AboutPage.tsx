@@ -9,9 +9,7 @@ import {
   Facebook,
   Twitter,
   Instagram,
-  Youtube,
 } from "lucide-react";
-import { useState } from "react";
 
 const SustainabilityHero = () => {
   return (
@@ -32,7 +30,7 @@ const SustainabilityQuote = () => {
   return (
     <div className="bg-white/95 backdrop-blur-sm rounded-lg p-2 max-w-2xl shadow-lg">
       <blockquote className="text-lg text-gray-700 italic leading-relaxed mb-6">
-        At Kaveri Industries, we believe that true success is about creating a
+        At Kaveri, we believe that true success is about creating a
         positive and lasting impact. Sustainability is at the core of our
         operations, and we are dedicated to minimising our environmental
         footprint through resource-efficient processes and responsible waste
@@ -77,9 +75,9 @@ const SustainabilityStats = () => {
 };
 
 const AboutPage = () => {
-  const [activeLocation, setActiveLocation] = useState("PITTSBURGH");
+  // const [activeLocation, setActiveLocation] = useState("PITTSBURGH");
 
-  const locations = ["PITTSBURGH", "CLEVELAND", "BIRMINGHAM"];
+  // const locations = ["PITTSBURGH", "CLEVELAND", "BIRMINGHAM"];
 
   const teamMembers = [
     {
@@ -425,8 +423,8 @@ const AboutPage = () => {
       </section>
 
       {/* section 4 */}
-      <section className="bg-gray-100 py-20 min-h-screen">
-        <div className="max-w-6xl mx-auto px-10">
+      {/* <section className="bg-gray-100 py-20 min-h-screen"> */}
+      {/* <div className="max-w-6xl mx-auto px-10">
           <div className="mb-10">
             <div className="relative text-red-500 text-base font-semibold mb-4">
               04
@@ -459,10 +457,10 @@ const AboutPage = () => {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* Image section that extends to the right edge */}
-        <div className="relative">
+      {/* Image section that extends to the right edge */}
+      {/* <div className="relative">
           <div className="ml-56 mr-0 mt-16">
             <div className="relative rounded-l-xl overflow-hidden h-[500px]">
               <img
@@ -512,8 +510,8 @@ const AboutPage = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </div> */}
+      {/* </section> */}
 
       {/* section 5: Meet Our Leader (About Our CEO style) */}
       <section className="py-16 px-4 bg-white">
@@ -693,216 +691,6 @@ const AboutPage = () => {
         </div>
       </section>
 
-      {/* section 6: Follow us on social media */}
-      <section className="bg-gray-200 py-20 px-8">
-        <div className="max-w-6xl mx-auto">
-          {/* Section number with line */}
-          <div className="flex items-center mb-8">
-            <span className="text-red-500 text-lg font-medium">06</span>
-            <div className="w-12 h-0.5 bg-red-500 ml-4"></div>
-          </div>
-
-          {/* Heading */}
-          <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-8 leading-tight">
-            Follow us on social media
-          </h2>
-
-          {/* Description */}
-          <p className="text-gray-500 text-lg mb-16 max-w-xl leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur. Locus purus tincidunt mauris
-            dolor molestie suscipit id. Egestas mauris justo laoreet sed quis.
-          </p>
-
-          {/* Social Media Icons */}
-          <div className="flex gap-6 items-center">
-            {/* Facebook */}
-            <div className="w-32 h-32 bg-gray-800 flex items-center justify-center">
-              <Facebook className="w-12 h-12 text-white fill-white" />
-            </div>
-
-            {/* X (Twitter) */}
-            <div className="w-32 h-32 bg-white flex items-center justify-center border border-gray-200">
-              <svg
-                className="w-10 h-10 text-black"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-              >
-                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-              </svg>
-            </div>
-
-            {/* Twitch */}
-            <div className="w-32 h-32 bg-white flex items-center justify-center border border-gray-200">
-              <svg
-                className="w-10 h-10 text-black"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-              >
-                <path d="M2.149 0L.537 4.119v15.581h5.378V24l4.119-4.3h3.49L21.463 12V0H2.149zm17.44 11.07l-3.49 3.49h-3.49l-3.07 3.07v-3.07H4.119V1.86h15.47v9.21z" />
-                <path d="M17.44 5.35h-1.86v5.58h1.86V5.35zm-4.93 0h-1.86v5.58h1.86V5.35z" />
-              </svg>
-            </div>
-
-            {/* YouTube */}
-            <div className="w-32 h-32 bg-gray-800 flex items-center justify-center">
-              <Youtube className="w-12 h-12 text-white fill-white" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* section 7: Brands & companies we worked with */}
-      <section className="bg-white py-20 px-8">
-        <div className="max-w-7xl mx-auto">
-          {/* Section number with line */}
-          <div className="flex items-center mb-8">
-            <span className="text-red-500 text-lg font-medium">07</span>
-            <div className="w-12 h-0.5 bg-red-500 ml-4"></div>
-          </div>
-
-          {/* Heading and arrows */}
-          <div className="flex items-center justify-between mb-12">
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
-              Brands & companies
-              <br />
-              we worked with
-            </h2>
-            <div className="flex gap-4">
-              <button className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center text-gray-700 hover:bg-gray-100 transition">
-                <svg
-                  width="24"
-                  height="24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M15 18l-6-6 6-6" />
-                </svg>
-              </button>
-              <button className="w-12 h-12 rounded-full bg-red-500 flex items-center justify-center text-white hover:bg-red-600 transition">
-                <svg
-                  width="24"
-                  height="24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M9 6l6 6-6 6" />
-                </svg>
-              </button>
-            </div>
-          </div>
-
-          {/* Companies Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-4 divide-x divide-gray-200 bg-white rounded-lg overflow-hidden shadow-sm">
-            {/* Card 1 */}
-            <div className="p-8 flex flex-col items-start">
-              <div className="mb-4">
-                <svg width="32" height="32" fill="none" viewBox="0 0 24 24">
-                  <rect
-                    x="2"
-                    y="2"
-                    width="20"
-                    height="20"
-                    rx="4"
-                    fill="#A3ACB9"
-                  />
-                  <rect x="6" y="6" width="4" height="4" rx="1" fill="#fff" />
-                  <rect x="14" y="6" width="4" height="4" rx="1" fill="#fff" />
-                  <rect x="6" y="14" width="4" height="4" rx="1" fill="#fff" />
-                  <rect x="14" y="14" width="4" height="4" rx="1" fill="#fff" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-500 mb-3">
-                Constructfy X
-              </h3>
-              <p className="text-gray-500 text-base leading-relaxed">
-                Sed ultricies adipiscing pretium viverra tortor consequat nisl
-                quam. Nec nunc est elementum id sit quis sit. Placerat tellus ut
-                malesuada quis eget duis netus.
-              </p>
-            </div>
-            {/* Card 2 */}
-            <div className="p-8 flex flex-col items-start">
-              <div className="mb-4">
-                <svg width="32" height="32" fill="none" viewBox="0 0 24 24">
-                  <path d="M4 16V8l8-4 8 4v8l-8 4-8-4Z" fill="#A3ACB9" />
-                  <path
-                    d="M4 8l8 4 8-4"
-                    stroke="#fff"
-                    strokeWidth="2"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-500 mb-3">
-                Cargo X
-              </h3>
-              <p className="text-gray-500 text-base leading-relaxed">
-                Sed ultricies adipiscing pretium viverra tortor consequat nisl
-                quam. Nec nunc est elementum id sit quis sit. Placerat tellus ut
-                malesuada quis eget duis netus.
-              </p>
-            </div>
-            {/* Card 3 */}
-            <div className="p-8 flex flex-col items-start">
-              <div className="mb-4">
-                <svg width="32" height="32" fill="none" viewBox="0 0 24 24">
-                  <path
-                    d="M3 17V7l9-5 9 5v10l-9 5-9-5Z"
-                    stroke="#A3ACB9"
-                    strokeWidth="2"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M7 10v4l5 3 5-3v-4"
-                    stroke="#A3ACB9"
-                    strokeWidth="2"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-500 mb-3">
-                Carpenters X
-              </h3>
-              <p className="text-gray-500 text-base leading-relaxed">
-                Sed ultricies adipiscing pretium viverra tortor consequat nisl
-                quam. Nec nunc est elementum id sit quis sit. Placerat tellus ut
-                malesuada quis eget duis netus.
-              </p>
-            </div>
-            {/* Card 4 */}
-            <div className="p-8 flex flex-col items-start">
-              <div className="mb-4">
-                <svg width="32" height="32" fill="none" viewBox="0 0 24 24">
-                  <rect
-                    x="3"
-                    y="7"
-                    width="18"
-                    height="10"
-                    rx="2"
-                    fill="#A3ACB9"
-                  />
-                  <rect x="7" y="11" width="2" height="2" rx="1" fill="#fff" />
-                  <rect x="15" y="11" width="2" height="2" rx="1" fill="#fff" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-500 mb-3">
-                Construktion X
-              </h3>
-              <p className="text-gray-500 text-base leading-relaxed">
-                Sed ultricies adipiscing pretium viverra tortor consequat nisl
-                quam. Nec nunc est elementum id sit quis sit. Placerat tellus ut
-                malesuada quis eget duis netus.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
     </>
   );
 };

@@ -19,10 +19,13 @@ const QualitySection: React.FC = () => {
             </h2>
           </div>
           <div className="mt-4 md:mt-8 md:ml-8 md:w-1/2 text-gray-600 text-base md:text-right max-w-xl">
-            Kaveri Industries provides robust and versatile packaging solutions
-            for a wide range of FMCG sectors. We understand the unique demands
-            of each industry and offer machines that enhance productivity and
-            ensure product integrity.
+            Kaveri Global Industries delivers robust and versatile packaging
+            solutions designed to meet the highest standards of performance and
+            reliability. Serving a wide range of FMCG sectors, we understand the
+            unique challenges of each industry and craft machinery that not only
+            enhances productivity but also safeguards product quality and
+            integrity. With a focus on durability, innovation, and precision,
+            our solutions embody exceptional quality that truly can’t be beaten.
           </div>
         </div>
         {/* Right-aligned image with overlay and play button */}

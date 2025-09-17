@@ -17,7 +17,7 @@ const services = [
       "High-precision auger, liquid, and powder filling machines for accurate and consistent filling.",
     detailedDescription:
       "Our filling machines are engineered for precision and reliability. We offer auger fillers for powders and granules, liquid fillers for beverages and oils, and powder fillers for spices and supplements. Each machine is designed with advanced technology to ensure consistent fill weights and high production speeds.",
-    image: "/160.jpg",
+    image: "/Home-Page/Filling Machines.jpg",
     features: [
       "High precision filling",
       "Easy to clean",
@@ -32,7 +32,7 @@ const services = [
       "Reliable pouch, band, and induction sealing machines for secure and professional packaging.",
     detailedDescription:
       "Professional sealing solutions for various packaging needs. Our range includes pouch sealers for flexible packaging, band sealers for continuous sealing, and induction sealers for tamper-evident closures. Built with industrial-grade components for long-term reliability.",
-    image: "/28820.jpg",
+    image: "/Home-Page/Sealing Machines.jpg",
     features: [
       "Multiple sealing options",
       "Temperature control",
@@ -47,7 +47,7 @@ const services = [
       "Automated VFFS and HFFS machines for efficient packaging of snacks, powders, and granules.",
     detailedDescription:
       "Complete packaging automation with our FFS machines. Vertical Form Fill Seal (VFFS) for snacks and powders, Horizontal Form Fill Seal (HFFS) for larger products. These machines form the package, fill it with product, and seal it in one continuous operation.",
-    image: "/317.jpg",
+    image: "/Home-Page/Form, Fill, and Seal (FFS) Machines.jpg",
     features: [
       "Fully automated",
       "High speed production",
@@ -62,7 +62,7 @@ const services = [
       "High-speed sticker, bottle, and wrap-around labeling machines for perfect product presentation.",
     detailedDescription:
       "Professional labeling solutions for all your product presentation needs. From high-speed sticker applicators to sophisticated bottle labelers and wrap-around systems. Our machines ensure perfect label placement and adhesion for a professional finish.",
-    image: "/Kaveri Logo.png",
+    image: "/Home-Page/Labeling Machines.jpg",
     features: [
       "High speed operation",
       "Precise positioning",

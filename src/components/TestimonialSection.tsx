@@ -18,7 +18,7 @@ const TestimonialSection: React.FC = () => {
         {/* Image and Testimonial Card */}
         <div className="relative w-full">
           <img
-            src="https://images.pexels.com/photos/6169662/pexels-photo-6169662.jpeg?auto=compress&w=1200&q=80"
+            src="/Home-Page/Why Choose Us.jpg"
             alt="Client testimonial background"
             className="w-full h-[340px] md:h-[400px] object-cover rounded"
           />
@@ -29,14 +29,8 @@ const TestimonialSection: React.FC = () => {
               Great quality service delivered on time
             </h3>
             <p className="text-gray-300 text-sm mb-4">
-              Lorem ipsum dolor sit amet consectetur tortor donec ut nulla
-              mattis vitae purus a cursus mauris eu non dictum sit adipiscing
-              nulla turpis integer libero ipsum rhoncus.
+              Kaveri Global Industries has consistently provided great quality service, delivering exactly what we needed on time. Their commitment to reliability and excellence truly sets them apart.
             </p>
-            <div className="text-white font-bold text-sm mb-1">
-              JOHN CARTER{" "}
-              <span className="text-blue-300 font-normal">NEW YORK. NY</span>
-            </div>
             {/* Dots */}
             <div className="flex space-x-2 mt-4">
               <span className="w-2 h-2 rounded-full bg-gray-400 inline-block"></span>

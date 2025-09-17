@@ -3,24 +3,21 @@ import React from "react";
 const testimonials = [
   {
     quote: "Great quality service delivered on time",
-    text: "Kaveri Industries provided us with a highly efficient and reliable packaging machine that has significantly improved our production line. Their team is professional and supportive.",
-    author: "JOHN CARTER",
+    text: "Kaveri provided us with a highly efficient and reliable packaging machine that has significantly improved our production line. Their team is professional and supportive.",
     location: "NEW YORK. NY",
-    image: "/28820.jpg",
+    image: "/Home-Page/Great quality service delivered on time.jpg",
   },
   {
     quote: "Reliable, precise, and trusted by many",
-    text: "The quality of their machines is top-notch, and their after-sales service is excellent. We highly recommend Kaveri Industries.",
-    author: "MATT CANNON",
+    text: "The quality of their machines is top-notch, and their after-sales service is excellent. We highly recommend Kaveri.",
     location: "MIAMI. FL",
-    image: "/28820.jpg",
+    image: "/Home-Page/Reliable, precise, and trusted by many.jpg",
   },
   {
     quote: "Unbeatable metallurgical expertise",
-    text: "Kaveri Industries provided us with a highly efficient and reliable packaging machine that has significantly improved our production line. Their team is professional and supportive.",
-    author: "SOPHIE MOORE",
+    text: "Working with Kaveri Industries has been a fantastic decision for our business. We purchased their Flowrap Machine, and the impact on our production line was immediate. The machine is robust, reliable, and has significantly increased our packaging speed.",
     location: "SAN FRANCISCO. CA",
-    image: "/28820.jpg",
+    image: "/Home-Page/Unbeatable metallurgical expertise.jpg",
   },
 ];
 
@@ -53,15 +50,9 @@ const ClientWorkSection: React.FC = () => {
               <p className="text-gray-600 text-sm mb-4">
                 {testimonials[0].text}
               </p>
-              <div className="text-gray-900 font-bold text-sm mb-1">
-                {testimonials[0].author}{" "}
-                <span className="text-blue-400 font-normal">
-                  {testimonials[0].location}
-                </span>
-              </div>
             </div>
             <img
-              src={testimonials[2].image}
+              src="/Home-Page/Great quality service delivered on time.jpg"
               alt="Testimonial"
               className="w-full h-48 object-cover rounded"
             />
@@ -69,7 +60,7 @@ const ClientWorkSection: React.FC = () => {
           {/* Center Image */}
           <div className="flex flex-col items-center justify-center">
             <img
-              src="https://images.pexels.com/photos/6169662/pexels-photo-6169662.jpeg?auto=compress&w=1200&q=80"
+              src="/Home-Page/Reliable, precise, and trusted by many.jpg"
               alt="Client work"
               className="w-full h-80 object-cover rounded mb-8"
             />
@@ -81,12 +72,6 @@ const ClientWorkSection: React.FC = () => {
               <p className="text-gray-600 text-sm mb-4">
                 {testimonials[1].text}
               </p>
-              <div className="text-gray-900 font-bold text-sm mb-1">
-                {testimonials[1].author}{" "}
-                <span className="text-blue-400 font-normal">
-                  {testimonials[1].location}
-                </span>
-              </div>
             </div>
           </div>
           {/* Right Column */}
@@ -99,12 +84,6 @@ const ClientWorkSection: React.FC = () => {
               <p className="text-gray-600 text-sm mb-4">
                 {testimonials[2].text}
               </p>
-              <div className="text-gray-900 font-bold text-sm mb-1">
-                {testimonials[2].author}{" "}
-                <span className="text-blue-400 font-normal">
-                  {testimonials[2].location}
-                </span>
-              </div>
             </div>
             <img
               src={testimonials[2].image}
