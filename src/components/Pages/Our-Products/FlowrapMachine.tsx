@@ -119,10 +119,14 @@ const FlowrapMachine: React.FC = () => {
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
       <motion.section
-        style={{ y }}
-        className="relative bg-red-600 text-white py-24 overflow-hidden"
+        className="relative bg-cover bg-center text-white py-24 overflow-hidden"
+        style={{
+          y,
+          backgroundImage:
+            "url('/Our-Products/Flowrap-machine/Flowrap Machine Horizontal Form-Fill-Seal (HFFS).jpg')",
+        }}
       >
-        <div className="absolute inset-0 bg-black opacity-20"></div>
+        <div className="absolute inset-0 bg-black opacity-50"></div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
@@ -136,9 +140,8 @@ const FlowrapMachine: React.FC = () => {
               transition={{ delay: 0.2, duration: 0.6 }}
               className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 mb-8"
             >
-              <Star className="w-4 h-4 text-yellow-400" />
               <span className="text-sm font-medium">
-                Industry Leading Technology
+                Advanced Packaging Solutions
               </span>
             </motion.div>
 
@@ -272,7 +275,7 @@ const FlowrapMachine: React.FC = () => {
           >
             <div className="relative overflow-hidden rounded-2xl shadow-xl">
               <img
-                src="/2016.jpg"
+                src="/Our-Products/Flowrap-machine/Advanced Packaging Technology.jpg"
                 alt="Flowrap Machine"
                 className="w-full h-auto"
               />

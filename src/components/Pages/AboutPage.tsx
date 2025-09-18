@@ -5,7 +5,6 @@ import {
   Users,
   Flag,
   Leaf,
-  ArrowRight,
   Facebook,
   Twitter,
   Instagram,
@@ -30,14 +29,12 @@ const SustainabilityQuote = () => {
   return (
     <div className="bg-white/95 backdrop-blur-sm rounded-lg p-2 max-w-2xl shadow-lg">
       <blockquote className="text-lg text-gray-700 italic leading-relaxed mb-6">
-        At Kaveri, we believe that true success is about creating a
-        positive and lasting impact. Sustainability is at the core of our
-        operations, and we are dedicated to minimising our environmental
-        footprint through resource-efficient processes and responsible waste
-        management. From developing green belts to implementing rainwater
-        harvesting systems, we ensure our growth respects and protects our
-        natural resources. We are committed to building a better future for our
-        people, our partners, and the generations to come.
+        At Kaveri, we believe that true success is about creating a positive and
+        lasting impact. Sustainability is at the core of our operations, and we
+        are dedicated to minimising our environmental footprint through
+        resource-efficient processes and responsible waste management. From
+        developing green belts to implementing rainwater harvesting systems, we
+        ensure our growth respects and protects our natural resources.
       </blockquote>
     </div>
   );
@@ -45,10 +42,10 @@ const SustainabilityQuote = () => {
 
 const SustainabilityStats = () => {
   const stats = [
-    { year: "2021", label: "CARBON NEUTRAL GLOBALLY", value: "" },
-    { value: "+90%", label: "DECREASE IN EMISSIONS FROM CLOUD SERVICES" },
-    { value: "3.5M+", label: "TREES PLANTED BY 2022" },
-    { value: "800+", label: "CLIMATE TEMPLATES" },
+    { year: "100%", label: "Clients satisfaction", value: "" },
+    { value: "150+", label: "Clients worldwide" },
+    { value: "35+", label: "Years of experience" },
+    { value: "1000㎡", label: "Production base" },
   ];
 
   return (
@@ -79,75 +76,21 @@ const AboutPage = () => {
 
   // const locations = ["PITTSBURGH", "CLEVELAND", "BIRMINGHAM"];
 
-  const teamMembers = [
-    {
-      id: 1,
-      name: "John Carter",
-      title: "CEO & Founder",
-      image: "/160.jpg",
-      social: {
-        facebook: "#",
-        twitter: "#",
-        instagram: "#",
-      },
-    },
-    {
-      id: 2,
-      name: "Kathie Corl",
-      title: "CTO & Co-Founder",
-      image: "/160.jpg",
-      social: {
-        facebook: "#",
-        twitter: "#",
-        instagram: "#",
-      },
-    },
-    {
-      id: 3,
-      name: "Lily Woods",
-      title: "Project Manager",
-      image: "/160.jpg",
-      social: {
-        facebook: "#",
-        twitter: "#",
-        instagram: "#",
-      },
-    },
-  ];
-
   return (
     <>
-      <section className="max-w-7xl mx-auto mt-20 py-24 px-6 flex flex-col md:flex-row items-center md:items-start justify-between">
-        {/* Left: Heading and Buttons */}
-        <div className="flex-1 flex flex-col items-center md:items-start">
-          <h1 className="text-7xl md:text-7xl font-semibold text-gray-900 mb-10 leading-tight text-center md:text-left">
-            A Legacy of Engineering Excellence
-            <br />
-            and Innovation
-          </h1>
-          <h1 className="text-3xl md:text-3xl font-semibold text-gray-900 mb-10 leading-tight text-center md:text-left">
-            Over 35 Years of Manufacturing Excellence
-          </h1>
-          <div className="flex gap-4 mb-4">
-            <button className="bg-[#FF3D2E] text-white px-8 py-2 rounded-full font-semibold flex items-center gap-2 text-lg shadow-sm hover:bg-[#e22c1c] transition">
-              Join us <ArrowRight className="w-5 h-5" />
-            </button>
-            <button className="border border-gray-300 text-gray-800 px-8 py-2 rounded-full font-semibold text-lg bg-white hover:bg-gray-100 transition">
-              Our values
-            </button>
-          </div>
-        </div>
-        {/* Right: Paragraph */}
-        <div className="flex-1 max-w-xl mt-10 md:mt-0 md:pl-12 flex items-center md:items-end">
-          <p className="text-gray-500 text-lg text-center md:text-left md:self-end md:mt-40">
-            Welcome to Kaveri Industries, a trusted and well-established
-            engineering and manufacturing company with a powerful legacy of over
-            35 years. We are recognised for our innovation, durability, and
-            precision in the manufacturing sector. Our journey began with a
-            focus on high-performance packaging machinery, where we became a
-            leading supplier, specialising in rotary machines for the tobacco
-            industry.
-          </p>
+      {/* About Us Image Section - Full Width */}
+      <section className="w-full mt-10 mb-10">
+        <div className="w-screen max-w-full overflow-hidden">
+          <img
+            src="/about us.jpg"
+            alt="Kaveri Industries - About Us"
+            className="w-full h-auto object-cover"
+            style={{
+              height: "65vh",
+              objectPosition: "center",
+              maxWidth: "100vw",
+            }}
+          />
         </div>
       </section>
 
@@ -159,12 +102,13 @@ const AboutPage = () => {
           style={{ marginBottom: "-80px" }}
         >
           <img
-            src="/28820.jpg"
+            src="/About-Us/A Legacy of Engineering Excellence and Innovation.jpg"
             alt="Welding"
             className="w-[1400px] max-w-full h-[450px] object-cover rounded-lg border-white shadow-xl"
             style={{ objectPosition: "center" }}
           />
         </div>
+
         {/* Stats Section */}
         <div className="bg-[#101418] w-full flex justify-center">
           <div className="max-w-6xl w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-20 py-20 px-4 md:px-8 mt-20">
@@ -229,7 +173,7 @@ const AboutPage = () => {
         {/* Left side - Image (approximately 42% width) */}
         <div className="w-[42%]">
           <img
-            src="/160.jpg"
+            src="/About-Us/The Principles That Guide Us.jpg"
             alt="Business meeting in warehouse with person in suit and worker in red overalls"
             className="w-full h-full object-cover"
           />
@@ -327,9 +271,9 @@ const AboutPage = () => {
             </h2>
 
             <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur locus purus tincidunt
-              mauris dolor molestae suscipit id egestas mauris justo laoreet sed
-              quis.
+              Our principles are the foundation of our business. They guide our
+              actions, define our character, and drive our commitment to
+              engineering excellence and customer success.
             </p>
           </div>
 
@@ -344,8 +288,9 @@ const AboutPage = () => {
                 Quality
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur locus purus tincidunt
-                mauris dolor non molestae suscipit id egestas mauris.
+                We are relentless in our pursuit of perfection. Quality at
+                Kaveri means engineering machines that are not only durable and
+                reliable but also deliver unmatched precision.
               </p>
             </div>
 
@@ -358,8 +303,9 @@ const AboutPage = () => {
                 Innovation
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur locus purus tincidunt
-                mauris dolor non molestae suscipit id egestas mauris.
+                Innovation is the engine of our progress. We continuously invest
+                in research and development to pioneer the next generation of
+                automated packaging solutions.
               </p>
             </div>
 
@@ -372,8 +318,9 @@ const AboutPage = () => {
                 Security
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur locus purus tincidunt
-                mauris dolor non molestae suscipit id egestas mauris.
+                We build equipment you can trust. For us, security means
+                ensuring the operational safety of our machines, protecting your
+                assets, and safeguarding the integrity of your products.
               </p>
             </div>
 
@@ -386,8 +333,9 @@ const AboutPage = () => {
                 Teamwork
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur locus purus tincidunt
-                mauris dolor non molestae suscipit id egestas mauris.
+                Our greatest strength is our people. We foster a culture of
+                collaboration where our engineers, technicians, and support
+                staff work together seamlessly.
               </p>
             </div>
 
@@ -400,8 +348,9 @@ const AboutPage = () => {
                 Leadership
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur locus purus tincidunt
-                mauris dolor non molestae suscipit id egestas mauris.
+                We aim to set the industry benchmark. Leadership at Kaveri is
+                about more than market position; it's about guiding the future
+                of packaging automation.
               </p>
             </div>
 
@@ -414,8 +363,8 @@ const AboutPage = () => {
                 Sustainability
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur locus purus tincidunt
-                mauris dolor non molestae suscipit id egestas mauris.
+                We are committed to responsible engineering. Sustainability is
+                at the core of our design philosophy.
               </p>
             </div>
           </div>
@@ -423,95 +372,33 @@ const AboutPage = () => {
       </section>
 
       {/* section 4 */}
-      {/* <section className="bg-gray-100 py-20 min-h-screen"> */}
-      {/* <div className="max-w-6xl mx-auto px-10">
-          <div className="mb-10">
-            <div className="relative text-red-500 text-base font-semibold mb-4">
-              04
-              <div className="absolute left-8 top-1/2 transform -translate-y-1/2 w-15 h-0.5 bg-red-500"></div>
-            </div>
-
-            <h2 className="text-5xl font-bold text-gray-800 mb-5 leading-tight">
-              Visit our location
-            </h2>
-
-            <p className="text-gray-600 text-base leading-relaxed max-w-lg mb-10">
-              Lorem ipsum dolor sit amet consectetur. Locus purus tincidunt
-              mauris dolor molestie suscipit id. Egestas mauris justo laoreet
-              sed quis.
-            </p>
-
-            <div className="flex gap-10 ml-auto justify-end -mt-32">
-              {locations.map((location) => (
-                <button
-                  key={location}
-                  className={`relative text-base font-medium py-2 transition-colors duration-300 ${
-                    activeLocation === location
-                      ? "text-gray-800 after:absolute after:bottom-[-8px] after:left-0 after:right-0 after:h-0.5 after:bg-red-500 after:content-['']"
-                      : "text-gray-400 hover:text-gray-800"
-                  }`}
-                  onClick={() => setActiveLocation(location)}
-                >
-                  {location}
-                </button>
-              ))}
-            </div>
-          </div>
-        </div> */}
-
-      {/* Image section that extends to the right edge */}
-      {/* <div className="relative">
-          <div className="ml-56 mr-0 mt-16">
-            <div className="relative rounded-l-xl overflow-hidden h-[500px]">
-              <img
-                src="/160.jpg"
-                alt="Industrial facility in Pittsburgh"
-                className="w-full h-[450px] object-cover"
+      <section className="min-h-screen bg-gray-50">
+        <div className="relative">
+          {/* Main sustainability section */}
+          <div className="grid lg:grid-cols-2 min-h-screen">
+            <SustainabilityHero />
+            <div className="relative">
+              {/* Background image */}
+              <div
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage:
+                    "url(/About-Us/OurCommitmenttoaSustainableFuture.jpg)",
+                }}
               />
-
-              <div className="absolute bottom-0 left-0 w-1/2 bg-black bg-opacity-85 text-white p-10 backdrop-blur-sm">
-                <h3 className="text-3xl font-bold mb-4 text-white">
-                  Pittsburgh, PA
-                </h3>
-
-                <p className="text-gray-300 text-sm leading-relaxed mb-8">
-                  Lorem ipsum dolor sit amet consectetur. Locus purus tincidunt
-                  mauris dolor molestie suscipit id egestas mauris justo
-                  laoreet.
-                </p>
-
-                <div className="flex gap-15">
-                  <div className="flex-1">
-                    <div className="flex items-center gap-2 mb-3">
-                      <span className="text-base">📧</span>
-                      <span className="text-white font-semibold text-base">
-                        Contact us
-                      </span>
-                    </div>
-                    <div className="text-gray-300 text-sm leading-relaxed">
-                      <p className="my-1">Email: contact@industrial.com</p>
-                      <p className="my-1">Phone: (123) 456 - 789</p>
-                    </div>
-                  </div>
-
-                  <div className="flex-1">
-                    <div className="flex items-center gap-2 mb-3">
-                      <span className="text-base">📍</span>
-                      <span className="text-white font-semibold text-base">
-                        Our location
-                      </span>
-                    </div>
-                    <div className="text-gray-300 text-sm leading-relaxed">
-                      <p className="my-1">16 Finland St Pittsburgh,</p>
-                      <p className="my-1">Pennsylvania PA, 15219</p>
-                    </div>
-                  </div>
-                </div>
+              {/* Quote overlay */}
+              <div className="relative z-5 flex items-center justify-center h-90x p-4">
+                <SustainabilityQuote />
               </div>
             </div>
           </div>
-        </div> */}
-      {/* </section> */}
+
+          {/* Stats section overlapping the main section */}
+          <div className="relative -mt-32 z-20">
+            <SustainabilityStats />
+          </div>
+        </div>
+      </section>
 
       {/* section 5: Meet Our Leader (About Our CEO style) */}
       <section className="py-16 px-4 bg-white">
@@ -593,106 +480,7 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-
-      <section className="min-h-screen bg-gray-50">
-        <div className="relative">
-          {/* Main sustainability section */}
-          <div className="grid lg:grid-cols-2 min-h-screen">
-            <SustainabilityHero />
-            <div className="relative">
-              {/* Background image */}
-              <div
-                className="absolute inset-0 bg-cover bg-center"
-                style={{ backgroundImage: "url(/28820.jpg)" }}
-              />
-              {/* Quote overlay */}
-              <div className="relative z-10 flex items-center justify-center h-full p-8">
-                <SustainabilityQuote />
-              </div>
-            </div>
-          </div>
-
-          {/* Stats section overlapping the main section */}
-          <div className="relative -mt-32 z-20">
-            <SustainabilityStats />
-          </div>
-        </div>
-      </section>
-
-      {/* section 5 */}
-      <section className="py-16 px-4 bg-white min-h-screen flex items-center">
-        <div className="max-w-6xl mx-auto w-full">
-          {/* Section Number */}
-          <div className="text-center mb-6">
-            <div className="inline-flex items-center">
-              <div className="h-px bg-red-500 w-16"></div>
-              <span className="mx-6 text-red-500 font-medium text-lg">06</span>
-              <div className="h-px bg-red-500 w-16"></div>
-            </div>
-          </div>
-
-          {/* Section Title */}
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-gray-900 mb-16 leading-tight">
-            Meet the team
-            <br />
-            behind Industrial
-          </h2>
-
-          {/* Team Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 max-w-5xl mx-auto">
-            {teamMembers.map((member) => (
-              <div key={member.id} className="text-center group">
-                {/* Member Photo Container */}
-                <div className="relative mb-6 overflow-hidden rounded-lg bg-gray-200 shadow-lg">
-                  <img
-                    src={member.image || "/placeholder.svg"}
-                    alt={member.name}
-                    className="w-full h-80 lg:h-96 object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
-
-                  {/* Social Media Icons Overlay */}
-                  <div className="absolute bottom-4 right-4 flex space-x-2 opacity-90 group-hover:opacity-100 transition-opacity duration-300">
-                    <a
-                      href={member.social.facebook}
-                      className="w-9 h-9 bg-white rounded-full flex items-center justify-center hover:bg-gray-50 transition-colors duration-200 shadow-md"
-                      aria-label={`${member.name} Facebook`}
-                    >
-                      <Facebook size={18} className="text-gray-700" />
-                    </a>
-                    <a
-                      href={member.social.twitter}
-                      className="w-9 h-9 bg-white rounded-full flex items-center justify-center hover:bg-gray-50 transition-colors duration-200 shadow-md"
-                      aria-label={`${member.name} Twitter`}
-                    >
-                      <Twitter size={18} className="text-gray-700" />
-                    </a>
-                    <a
-                      href={member.social.instagram}
-                      className="w-9 h-9 bg-white rounded-full flex items-center justify-center hover:bg-gray-50 transition-colors duration-200 shadow-md"
-                      aria-label={`${member.name} Instagram`}
-                    >
-                      <Instagram size={18} className="text-gray-700" />
-                    </a>
-                  </div>
-                </div>
-
-                {/* Member Info */}
-                <div className="space-y-2">
-                  <h3 className="text-xl lg:text-2xl font-semibold text-gray-900">
-                    {member.name}
-                  </h3>
-                  <p className="text-red-500 font-medium text-base lg:text-lg">
-                    {member.title}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
     </>
   );
 };
-
 export default AboutPage;

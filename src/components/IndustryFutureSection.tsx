@@ -12,7 +12,7 @@ const IndustryFutureSection: React.FC = () => {
               solutions in fully automatic packaging systems. We design and
               manufacture advanced, intelligent, and highly automated machinery
               tailored to diverse industries, including tobacco, nicotine snus,
-              FMCG, electronics, medical and healthcare, food, health products,
+              FMCG, electronics,food,
               daily chemicals, and plastic hardware. Our expertise covers the
               entire production cycle with specialized solutions for cartoning,
               boxing, labeling, and other integrated packaging processes,

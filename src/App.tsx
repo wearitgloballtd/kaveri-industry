@@ -32,6 +32,7 @@ import RibbonBlender from "./components/Pages/Our-Products/RibbonBlender";
 import SingleLaneStickPackMachine from "./components/Pages/Our-Products/SingleLaneStickPackMachine";
 import RotaryPickFillSealMachine from "./components/Pages/Our-Products/RotaryPickFillSealMachine";
 import LabellingMachine from "./components/Pages/Our-Products/LabellingMachine";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -64,6 +65,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navigation isScrolled={isScrolled} showNavbar={showNavbar} />
+      <ScrollToTop />
       <Routes>
         <Route
           path="/"
@@ -75,12 +77,12 @@ function App() {
               <ProcessSection />
               <QualitySection />
               {/* <FooterHeroSection /> */}
-              <ProductSlider />
+              {/* <ProductSlider /> */}
               <TestimonialSection />
               <ClientWorkSection />
               <ContactQuoteSection />
               {/* <NewsArticlesSection /> */}
-              <BrandsCompaniesSection />
+              {/* <BrandsCompaniesSection /> */}
             </>
           }
         />

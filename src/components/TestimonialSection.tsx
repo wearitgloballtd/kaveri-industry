@@ -29,14 +29,8 @@ const TestimonialSection: React.FC = () => {
               Great quality service delivered on time
             </h3>
             <p className="text-gray-300 text-sm mb-4">
-              Kaveri Global Industries has consistently provided great quality service, delivering exactly what we needed on time. Their commitment to reliability and excellence truly sets them apart.
+              Kaveri Global Industries has consistently provided great quality service, delivering exactly what we needed on time. Our commitment to reliability and excellence truly sets us apart.
             </p>
-            {/* Dots */}
-            <div className="flex space-x-2 mt-4">
-              <span className="w-2 h-2 rounded-full bg-gray-400 inline-block"></span>
-              <span className="w-2 h-2 rounded-full bg-gray-600 inline-block"></span>
-              <span className="w-2 h-2 rounded-full bg-gray-600 inline-block"></span>
-            </div>
           </div>
         </div>
       </div>

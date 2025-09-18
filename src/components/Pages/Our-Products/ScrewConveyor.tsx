@@ -74,7 +74,7 @@ const ScrewConveyor: React.FC = () => {
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent opacity-70"></div>
         <img
-          src="/images/screw-conveyor-hero.jpg"
+          src="/Our-Products/ScrewConveyor/Screw Conveyor Systems.jpg"
           alt="Screw Conveyor System"
           className="w-full h-full object-cover transform scale-105 transition-transform duration-10000 hover:scale-100"
         />
@@ -175,7 +175,7 @@ const ScrewConveyor: React.FC = () => {
             <div className="relative">
               <div className="relative overflow-hidden rounded-2xl shadow-xl">
                 <img
-                  src="/images/screw-conveyor-hero.jpg"
+                  src="/Our-Products/ScrewConveyor/Advanced Material Transfer Solutions.jpg"
                   alt="Screw Conveyor"
                   className="w-full h-auto"
                 />

@@ -1,7 +1,21 @@
-import React from "react";
-import { Play } from "lucide-react";
+import React, { useState, useRef } from "react";
+import { Play, Pause } from "lucide-react";
 
 const QualitySection: React.FC = () => {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const togglePlay = () => {
+    if (videoRef.current) {
+      if (isPlaying) {
+        videoRef.current.pause();
+      } else {
+        videoRef.current.play();
+      }
+      setIsPlaying(!isPlaying);
+    }
+  };
+
   return (
     <section className="w-full bg-white py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -28,17 +42,33 @@ const QualitySection: React.FC = () => {
             our solutions embody exceptional quality that truly can’t be beaten.
           </div>
         </div>
-        {/* Right-aligned image with overlay and play button */}
+        {/* Right-aligned video with overlay and play button */}
         <div className="w-full">
           <div className="relative w-full md:w-[900px] md:ml-auto aspect-video rounded overflow-hidden shadow-lg">
-            <img
-              src="https://youtu.be/Yg52NDLxtgA?si=PXFeCtQ0ZJcj0_BV"
-              alt="Quality warehouse"
+            <video
+              ref={videoRef}
+              src="/IMG_3377.MP4"
               className="w-full h-full object-cover"
+              preload="metadata"
+              poster="/video-poster.jpg"
+              muted
             />
-            <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
-              <button className="w-20 h-20 rounded-full bg-white/80 hover:bg-white/90 flex items-center justify-center shadow-lg transition">
-                <Play className="w-10 h-10 text-red-500" />
+            <div
+              className={`absolute inset-0 bg-black/60 flex items-center justify-center ${
+                isPlaying
+                  ? "opacity-0 hover:opacity-100 transition-opacity duration-300"
+                  : "opacity-100"
+              }`}
+            >
+              <button
+                className="w-20 h-20 rounded-full bg-white/80 hover:bg-white/90 flex items-center justify-center shadow-lg transition"
+                onClick={togglePlay}
+              >
+                {isPlaying ? (
+                  <Pause className="w-10 h-10 text-red-500" />
+                ) : (
+                  <Play className="w-10 h-10 text-red-500" />
+                )}
               </button>
             </div>
           </div>

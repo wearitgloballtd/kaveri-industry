@@ -6,7 +6,7 @@ const HeroSection: React.FC = () => {
 
   const images = [
     "/Home-Page/Precision Engineering for FMCG Packaging Machines.jpg",
-    "/Home-Page/We're the future of metallurgy industry.jpg",
+    "/Home-Page/We’re the future of metallurgy industry.jpg",
     "/Home-Page/A Legacy of Quality and Innovation.jpg",
   ];
 
@@ -127,7 +127,7 @@ const HeroSection: React.FC = () => {
                 </p>
                 <div className="flex items-baseline">
                   <span className="text-4xl md:text-5xl font-bold text-white">
-                    35+
+                    35
                   </span>
                   <span className="text-red-500 text-2xl font-bold">+</span>
                 </div>

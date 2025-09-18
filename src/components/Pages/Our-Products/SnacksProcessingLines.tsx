@@ -67,7 +67,7 @@ const SnacksProcessingLines: React.FC = () => {
         <div className="absolute inset-0 bg-black opacity-20" />
         <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent opacity-70" />
         <img
-          src="/images/snacks-processing-hero.jpg"
+          src="/Our-Products/Snacks-Processing-Lines/Snacks Processing Lines (Complete end-to-end solutions for efficient snack manufacturing).jpg"
           alt="Snacks Processing Lines"
           className="w-full h-full object-cover transform scale-105 transition-transform duration-10000 hover:scale-100"
         />
@@ -170,7 +170,7 @@ const SnacksProcessingLines: React.FC = () => {
             <div className="relative">
               <div className="relative overflow-hidden rounded-2xl shadow-xl">
                 <img
-                  src="/images/snacks-processing-hero.jpg"
+                  src="/Our-Products/Snacks-Processing-Lines/End-to-End Snack Production.jpg"
                   alt="Snack Line"
                   className="w-full h-auto"
                 />

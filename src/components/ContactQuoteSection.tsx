@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactQuoteSection: React.FC = () => {
   return (
-    <section className="w-full bg-gray-900 py-0">
+    <section className="w-full bg-gray-900 py-0 ">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row min-h-[480px] relative">
         {/* Left: Form Card */}
         <div className="w-full md:w-1/2 flex items-center justify-center z-10">
@@ -16,7 +16,7 @@ const ContactQuoteSection: React.FC = () => {
                   <label className="block text-gray-700 mb-1">Full name</label>
                   <input
                     type="text"
-                    placeholder="John Carter"
+                    placeholder="Enter your name"
                     className="w-full border-b border-gray-200 focus:border-gray-400 outline-none py-2 bg-transparent placeholder-gray-400"
                   />
                 </div>
@@ -71,12 +71,14 @@ const ContactQuoteSection: React.FC = () => {
         <div className="w-full md:w-1/2 flex flex-col justify-center px-8 md:px-0">
           <div className="max-w-xl mx-auto md:mx-0 md:ml-0">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight text-white">
-            Ready to Elevate Your
+              Ready to Elevate Your
               <br />
               Packaging Process?
             </h2>
             <p className="text-gray-300 mb-8">
-            Contact our experts today to discuss your requirements and get a customized quote for your FMCG packaging needs. Let Kaveri Industries be the catalyst for your growth.
+              Contact our experts today to discuss your requirements and get a
+              customized quote for your FMCG packaging needs. Let Kaveri
+              Industries be the catalyst for your growth.
             </p>
             <div className="flex flex-col md:flex-row gap-8">
               <div className="flex-1 flex items-start gap-3 mb-6 md:mb-0">
@@ -107,13 +109,9 @@ const ContactQuoteSection: React.FC = () => {
                   <div className="text-gray-300 text-sm">
                     Email:{" "}
                     <span className="text-white font-medium">
-                      contact@industrial.com
+                      info@kaveriglobal.com
                     </span>
                     <br />
-                    Phone:{" "}
-                    <span className="text-white font-medium">
-                      (123) 456 - 789
-                    </span>
                   </div>
                 </div>
               </div>
@@ -143,9 +141,9 @@ const ContactQuoteSection: React.FC = () => {
                     Our location
                   </div>
                   <div className="text-gray-300 text-sm">
-                    16 Finland St
-                    <br />
-                    Pittsburgh, Pennsylvania, PA, 15219
+                    Khasra No. 42,
+                    Harpla Sikri Road, Sikri Industrial Area, Faridabad -
+                    121004, Haryana, India
                   </div>
                 </div>
               </div>

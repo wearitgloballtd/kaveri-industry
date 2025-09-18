@@ -22,9 +22,9 @@ const products: Product[] = [
     title: "Flowrap Machine ",
     subtitle: "(Horizontal Form Fill Seal)",
     image:
-      "https://res.cloudinary.com/smitdudhat/image/upload/v1672059539/Star%20Wars%20Theme%20Images/item-4_dskwc1.webp",
+      "/Home-Page/Product-Slider/Flowrap machine.png",
     bgImage:
-      "/2016.jpg",
+      "/Home-Page/Product-Slider/Flowrap machines.jpg",
     description:
       "Flowrap Machine, also known as a Horizontal Form-Fill-Seal (HFFS) wrapper. Designed to package individual solid products with speed and precision, this machine creates a clean, sealed, pillow-pack style bag from a flat roll of film.",
     features: [
@@ -40,9 +40,9 @@ const products: Product[] = [
     title: " Snacks Processing Lines",
     subtitle: "",
     image:
-      "https://res.cloudinary.com/smitdudhat/image/upload/v1672059540/Star%20Wars%20Theme%20Images/item-1_gmgity.webp",
+      "/Home-Page/Product-Slider/Snacks Processing Lines.png",
     bgImage:
-      "https://res.cloudinary.com/smitdudhat/image/upload/v1672059539/Star%20Wars%20Theme%20Images/item-1-bg_ggbu4m.webp",
+      "/Home-Page/Product-Slider/Snacks Processing Lines.jpg",
     description:
       "We offer a complete Snacks Processing Line designed to streamline your entire production from start to finish. Our solutions are built to integrate every stage of snack manufacturing, ensuring a smooth, efficient workflow for a wide variety of snack products.",
     features: [
@@ -58,9 +58,9 @@ const products: Product[] = [
     title: "Screw Conveyor and System",
     subtitle: "",
     image:
-      "https://res.cloudinary.com/smitdudhat/image/upload/v1672059539/Star%20Wars%20Theme%20Images/item-2_y91lhr.webp",
+      "/Home-Page/Product-Slider/Screw Conveyor and System.png",
     bgImage:
-      "https://res.cloudinary.com/smitdudhat/image/upload/v1672059539/Star%20Wars%20Theme%20Images/item-2-bg_gectuy.webp",
+      "/Home-Page/Product-Slider/Screw Conveyor and System.jpg",
     description:
       "Move your bulk materials efficiently and gently with our Screw Conveyor Systems. An essential component in any processing plant, the screw conveyor (or auger conveyor) provides a dust-free and contained method for transferring powders, granules, and other free-flowing materials.",
     features: [
@@ -75,9 +75,9 @@ const products: Product[] = [
     title: "Band Sealer",
     subtitle: "",
     image:
-      "https://res.cloudinary.com/smitdudhat/image/upload/v1672059697/Star%20Wars%20Theme%20Images/item-3_ibqbc0.webp",
+      "/Home-Page/Product-Slider/Band Sealer.png",
     bgImage:
-      "https://res.cloudinary.com/smitdudhat/image/upload/v1672059539/Star%20Wars%20Theme%20Images/item-3-bg_sxupkm.webp",
+      "/Home-Page/Product-Slider/Band Sealer.jpg",
     description:
       "Create strong, clean, and professional-looking seals on all your pre-made pouches with our dependable Band Sealer. This continuous sealing machine is the perfect solution for medium-to-high volume operations, offering a fast and reliable way to seal a wide variety of bag materials. It's the workhorse of any packaging line, ensuring your products are tamper-proof and protected from moisture and contaminants.",
     features: [

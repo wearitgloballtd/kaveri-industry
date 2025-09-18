@@ -101,9 +101,9 @@ const ServicesSection: React.FC = () => {
               FMCG Packaging Machines
             </h2>
           </div>
-          <button className="mt-6 md:mt-0 border border-gray-300 hover:border-gray-400 text-gray-700 px-6 py-2 rounded-full transition-colors">
+          {/* <button className="mt-6 md:mt-0 border border-gray-300 hover:border-gray-400 text-gray-700 px-6 py-2 rounded-full transition-colors">
             Browse all services
-          </button>
+          </button> */}
         </div>
         {/* Services List */}
         <div className="divide-y divide-gray-200 bg-white rounded-xl shadow overflow-hidden">
