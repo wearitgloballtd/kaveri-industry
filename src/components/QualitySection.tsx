@@ -50,8 +50,9 @@ const QualitySection: React.FC = () => {
               src="/IMG_3377.MP4"
               className="w-full h-full object-cover"
               preload="metadata"
-              poster="/video-poster.jpg"
+              poster="/317.jpg"
               muted
+              playsInline
             />
             <div
               className={`absolute inset-0 bg-black/60 flex items-center justify-center ${
