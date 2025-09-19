@@ -78,7 +78,7 @@ const RibbonBlender: React.FC = () => {
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent opacity-70"></div>
         <img
-          src="/images/ribbon-blender-hero.jpg"
+          src="/Our-Products/Ribbon Blender/Ribbon Blender.jpg"
           alt="Ribbon Blender Machine"
           className="w-full h-full object-cover transform scale-105 transition-transform duration-10000 hover:scale-100"
         />
@@ -182,7 +182,7 @@ const RibbonBlender: React.FC = () => {
             <div className="relative">
               <div className="relative overflow-hidden rounded-2xl shadow-xl">
                 <img
-                  src="/images/ribbon-blender.jpg"
+                  src="/Our-Products/Ribbon Blender/Professional Blending Solutions.jpg"
                   alt="Ribbon Blender Machine"
                   className="w-full h-auto"
                 />

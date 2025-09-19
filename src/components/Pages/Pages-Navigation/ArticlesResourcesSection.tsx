@@ -5,7 +5,7 @@ const ArticlesResourcesSection: React.FC = () => {
   const articleCards = [
     {
       id: 1,
-      image: "/160.jpg",
+      image: "/Page-Navigation/ArticleAndResources/Metallurgic innovations Forging the future of industry.jpg",
       alt: "Industrial component",
       category: "NEWS",
       date: "JAN 30, 2025",
@@ -15,7 +15,7 @@ const ArticlesResourcesSection: React.FC = () => {
     },
     {
       id: 2,
-      image: "/317.jpg",
+      image: "/Page-Navigation/ArticleAndResources/Unlocking metallurgic marvels A comprehensive guide.jpg",
       alt: "Welding work",
       category: "GUIDES",
       date: "JAN 27, 2025",
@@ -25,7 +25,7 @@ const ArticlesResourcesSection: React.FC = () => {
     },
     {
       id: 3,
-      image: "/28820.jpg",
+      image: "/Page-Navigation/ArticleAndResources/Metallurgic innovations Forging the future of industry.jpg",
       alt: "Metal pipes",
       category: "RESOURCES",
       date: "JAN 24, 2025",
@@ -35,7 +35,7 @@ const ArticlesResourcesSection: React.FC = () => {
     },
     {
       id: 4,
-      image: "/160.jpg",
+      image: "/Page-Navigation/ArticleAndResources/The art and science of metallurgic welding techniques.jpg",
       alt: "Welding torch",
       category: "GUIDES",
       date: "JAN 21, 2025",
@@ -45,7 +45,7 @@ const ArticlesResourcesSection: React.FC = () => {
     },
     {
       id: 5,
-      image: "/317.jpg",
+      image: "/Page-Navigation/ArticleAndResources/Metallurgy's role in aerospace advancements.jpg",
       alt: "Rocket launch",
       category: "RESOURCES",
       date: "JAN 18, 2025",
@@ -55,7 +55,7 @@ const ArticlesResourcesSection: React.FC = () => {
     },
     {
       id: 6,
-      image: "/28820.jpg",
+      image: "/Page-Navigation/ArticleAndResources/Metallurgy in motion Powering modern transportation.jpg",
       alt: "Car parking lot",
       category: "NEWS",
       date: "JAN 15, 2025",
@@ -88,7 +88,7 @@ const ArticlesResourcesSection: React.FC = () => {
           <div className="mr-56 mr-0 mt-16">
             <div className="relative rounded-l-xl overflow-hidden h-[500px]">
               <img
-                src="/317.jpg"
+                src="/Page-Navigation/ArticleAndResources/Metallurgic innovations Forging the future of industry.jpg"
                 alt="Factory worker in an industrial setting"
                 className="w-full h-[500px] object-cover"
               />

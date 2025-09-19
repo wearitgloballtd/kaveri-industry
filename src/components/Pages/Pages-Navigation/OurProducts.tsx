@@ -15,8 +15,7 @@ interface Product {
 const productsData: Product[] = [
   {
     id: 1,
-    imageUrl:
-      "https://images.unsplash.com/photo-1564082269925-ab3d38734259?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    imageUrl: "/Page-Navigation/OurProducts/Mainshaft Gears.jpg",
     price: "$18",
     name: "Mainshaft Gears",
     description:
@@ -25,8 +24,7 @@ const productsData: Product[] = [
   },
   {
     id: 2,
-    imageUrl:
-      "https://images.unsplash.com/photo-1505798577734-e21354b08704?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    imageUrl: "/Page-Navigation/OurProducts/Portable Saw.jpg",
     price: "$450",
     name: "Portable Saw",
     description:
@@ -35,8 +33,7 @@ const productsData: Product[] = [
   },
   {
     id: 3,
-    imageUrl:
-      "https://images.unsplash.com/photo-1617886322207-6f504e7472c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    imageUrl: "/Page-Navigation/OurProducts/Wheel Bearing Hub.jpg",
     price: "$60",
     name: "Wheel Bearing Hub",
     description:
@@ -45,8 +42,7 @@ const productsData: Product[] = [
   },
   {
     id: 4,
-    imageUrl:
-      "https://images.unsplash.com/photo-1564082269925-ab3d38734259?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    imageUrl: "/Page-Navigation/OurProducts/Power Generator.jpg",
     price: "$500",
     name: "Power Generator",
     description:
@@ -55,8 +51,7 @@ const productsData: Product[] = [
   },
   {
     id: 5,
-    imageUrl:
-      "https://images.unsplash.com/photo-1505798577734-e21354b08704?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    imageUrl: "/Page-Navigation/OurProducts/Clutch Plate Kit.jpg",
     price: "$55",
     name: "Clutch Plate Kit",
     description:
@@ -65,8 +60,7 @@ const productsData: Product[] = [
   },
   {
     id: 6,
-    imageUrl:
-      "https://images.unsplash.com/photo-1617886322207-6f504e7472c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    imageUrl: "/Page-Navigation/OurProducts/Roller Drill Bit.jpg",
     price: "$40",
     name: "Roller Drill Bit",
     description:
@@ -83,9 +77,13 @@ const ProductsSection: React.FC = () => {
         {/* Header Section */}
         <div className="text-center mb-12 mt-12">
           <h1 className="text-8xl  text-gray-900 mb-4">Our products</h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p className="text-lg text-gray-600 max-w-6xl mx-auto">
+            At Kaveri Global Industries, our products are designed to bring
+            innovation, efficiency, and reliability to packaging and production
+            processes. We specialize in advanced machinery for tobacco, nicotine
+            snus, and FMCG industries, along with versatile solutions for food,
+            healthcare, electronics, daily chemicals, and plastic hardware
+            sectors.
           </p>
         </div>
 
@@ -99,9 +97,9 @@ const ProductsSection: React.FC = () => {
                   alt={product.name}
                   className="w-full h-80 object-cover"
                 />
-                <div className="absolute top-4 right-4 bg-black text-white text-sm font-semibold py-2 px-4 rounded-lg">
+                {/* <div className="absolute top-4 right-4 bg-black text-white text-sm font-semibold py-2 px-4 rounded-lg">
                   {product.price} USD
-                </div>
+                </div> */}
               </div>
               <div className="mt-6 px-6 pb-6">
                 <h3 className="text-2xl font-bold text-gray-900 mb-3">
@@ -110,13 +108,13 @@ const ProductsSection: React.FC = () => {
                 <p className="text-gray-700 mb-4 text-base leading-relaxed">
                   {product.description}
                 </p>
-                <a
+                {/* <a
                   href={product.link}
                   className="text-gray-900 font-semibold inline-flex items-center gap-2 group hover:text-gray-700 transition-colors"
                 >
                   Learn more
                   <HiArrowLongRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
-                </a>
+                </a> */}
               </div>
             </div>
           ))}

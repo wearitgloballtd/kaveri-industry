@@ -79,7 +79,7 @@ const SingleLaneStickPackMachine: React.FC = () => {
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent opacity-70"></div>
         <img
-          src="/images/stick-pack-hero.jpg"
+          src="/Our-Products/Single Lane Stick Pack Machine/Single Lane Stick Pack Machine.jpg"
           alt="Single Lane Stick Pack Machine"
           className="w-full h-full object-cover transform scale-105 transition-transform duration-10000 hover:scale-100"
         />
@@ -185,7 +185,7 @@ const SingleLaneStickPackMachine: React.FC = () => {
             <div className="relative">
               <div className="relative overflow-hidden rounded-2xl shadow-xl">
                 <img
-                  src="/images/stick-pack-machine.jpg"
+                  src="/Our-Products/Single Lane Stick Pack Machine/Single-Serve Packaging Solutions.jpg"
                   alt="Single Lane Stick Pack Machine"
                   className="w-full h-auto"
                 />
